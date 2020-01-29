@@ -15,5 +15,5 @@ echo "Here is the percentage of words that begin with a vowel"
 vowel=$(grep -E -i -c ^[aeiou] words.txt)
 total=$(grep -E -c $ words.txt)
 final=$(echo "scale=4; $vowel/$total" | bc)
-final=$(echo "scale=2; $final*100" | bc)
-echo $final%
+finals=$(echo "scale=2; $final*100" | bc)
+echo $finals%
