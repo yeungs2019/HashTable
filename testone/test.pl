@@ -17,7 +17,7 @@ my $guess = <STDIN>;
 my $randomnumber = int rand 100;
 
 # the user will type this in if they want to quit the game
-my $quit = 999;
+my $quitvariable = 999;
 
 # while loop to keep running if the user hasn't guessed the magic number
 while ($guess != $randomnumber){
@@ -36,7 +36,7 @@ while ($guess != $randomnumber){
         print "You guessed correctly! It was $guess\n";
         last;
     }
-    if ($guess == $quit){
+    if ($guess == $quitvariable){
         print "Leaving? The number was ${randomnumber}\n";
         last;
     }
