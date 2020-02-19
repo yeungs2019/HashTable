@@ -30,8 +30,8 @@ for my $line (@lines){
 }
 open(my $fh, '>', $largestfile) or die "Could not open file '$largestfile' $!";
 
-for (@lines){
-    my $max = max @lines;
-    print $fh "The max value is $max\n";
-}
+
+my $max = max @lines;
+print $fh "The max value is $max\n";
+
 close $fh;
