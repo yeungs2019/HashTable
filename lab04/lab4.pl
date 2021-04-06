@@ -1,3 +1,11 @@
+/* Student Name:  Steven Yeung
+* Program Name:  Perl Hash Table
+* Creation Date:  March 16, 2020
+* Last Modified Date:  March 23, 2020
+* CSCI Course:  CSCI 301
+* Grade Received:  100
+* Design Comments: Coded in Perl using Vim as text editior.  ./lab04.pl to run
+*/
 #!/usr/bin/perl 
 
 use strict;
